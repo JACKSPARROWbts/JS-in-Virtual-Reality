@@ -1,0 +1,11 @@
+video{
+    height: 500px;
+    width: 800px;
+}
+@media(max-height:800px){
+    video{
+        width: 400px;
+        margin: 0px;
+        padding: 0%;
+    }
+}

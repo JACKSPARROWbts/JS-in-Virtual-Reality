@@ -1,0 +1,14 @@
+
+#btn1{
+position: absolute;
+right: 100px;
+bottom: 20px;
+border: none;
+outline: none;
+color: white;
+background-color: grey;
+height: 30px;
+width: 100px;
+cursor: pointer;
+}
+

@@ -1,0 +1,80 @@
+
+#span1{
+    font-size: 10vw;
+    font-weight: bold;
+    background:url(park.jpg);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+#one{
+    float: left;
+}
+.box1{
+    height: 300px;
+    width: 200px;
+    background-color: antiquewhite;
+}
+#two{
+    float:right;
+}
+#para1{
+    text-align: justify;
+    padding-left: 300px;
+    font-size: 20px;
+}
+#titled{
+    text-align: center;
+    font-size: 50px;
+}
+.box2{
+    height: 300px;
+    width: 200px;
+    background-color: darkgray;
+}
+#three{
+    float: left;
+}
+#para2{
+    text-align: justify;
+    padding-left: 300px;
+    font-size: 20px;
+}
+.box3{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(124, 124, 194);
+}
+@media(max-width:800px){
+    .box1{
+        height: 300px;
+        width: 100px;
+        background-color: white;
+    }
+    #two{
+        width: 350px;
+    }
+    #one{
+        width: 350px;
+    }
+    #three{
+        width: 350px;
+    }
+    .box2{
+        background-color: white;
+    }
+    .box3{
+        background-color: white;
+    }
+    #para1{
+        padding-left: 0px;
+    }
+    #dummy{
+        height: 300px;
+    }
+    #para2{
+      padding-left: 0px;
+    }
+    #titled{
+        color:"red"
+    }
+}
