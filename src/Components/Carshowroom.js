@@ -84,9 +84,6 @@ controls.noZoom=true;
      };
      animate();
   },[])
-  const clicked=()=>{
-  alert('hello world');
-  }
   return(
     <div id="container">
       
