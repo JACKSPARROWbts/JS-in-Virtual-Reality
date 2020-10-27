@@ -13,25 +13,7 @@ function Carshowroom(){
   useEffect(()=>{
     var effect= new StereoEffect.StereoEffect(renderer);
 var geometry=new THREE.BoxGeometry(1,1,1);
-//var element=renderer.domElement;
-//const btn=VRButton.createButton(renderer);
-//document.body.appendChild(btn);
-//console.log(btn);
-//setPic(btn);
 effect.setSize(window.innerWidth,window.innerHeight*2)
-// var container=document.getElementById("container");
-// element.addEventListener("click",animation,false);
-// function animation(){
-//   if (container.requestFullscreen) {
-//             container.requestFullscreen();
-//           } else if (container.msRequestFullscreen) {
-//             container.msRequestFullscreen();
-//           } else if (container.mozRequestFullScreen) {
-//             container.mozRequestFullScreen();
-//           } else if (container.webkitRequestFullscreen) {
-//             container.webkitRequestFullscreen(); 
-//           }
-// }
 renderer.xr.enabled=true;
 var loader=new THREE.TextureLoader();
 var material=new THREE.MeshBasicMaterial({color:"red",wireframe:true});
@@ -54,15 +36,6 @@ controls.noZoom=true;
        return ;
      }
    }
-//    var loader=new GLTF.GLTFLoader();
-//    var controls=new OrbitControls.OrbitControls(camera,renderer.domElement);
-//    loader.load(process.env.PUBLIC_URL+'/images/scene.gltf',(gltf)=>{
-//      console.log("the scene is",gltf.scene.children[0])
-//      scene.add(gltf.scene);
-//      renderer.render(scene,camera);
-//    },(xhr)=>{
-//      console.log(xhr.target.responseURL);
-//    })
      loader.load(process.env.PUBLIC_URL+"/images/carshowroom.jpg",(texture)=>{
        var spheregeometry=new THREE.SphereGeometry(500,60,40);
        var spherematerial=new THREE.MeshBasicMaterial({

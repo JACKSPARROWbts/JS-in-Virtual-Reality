@@ -36,15 +36,6 @@ controls.noZoom=true;
        return ;
      }
    }
-//    var loader=new GLTF.GLTFLoader();
-//    var controls=new OrbitControls.OrbitControls(camera,renderer.domElement);
-//    loader.load(process.env.PUBLIC_URL+'/images/scene.gltf',(gltf)=>{
-//      console.log("the scene is",gltf.scene.children[0])
-//      scene.add(gltf.scene);
-//      renderer.render(scene,camera);
-//    },(xhr)=>{
-//      console.log(xhr.target.responseURL);
-//    })
      loader.load(process.env.PUBLIC_URL+"/images/mall.jpg",(texture)=>{
        var spheregeometry=new THREE.SphereGeometry(500,60,40);
        var spherematerial=new THREE.MeshBasicMaterial({
