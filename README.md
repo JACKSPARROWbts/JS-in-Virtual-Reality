@@ -1,4 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React360 for our Safety](https://user-images.githubusercontent.com/59025857/99689129-9bb4f000-2aac-11eb-9614-6a511204792f.gif)
 
 ## Available Scripts
 
